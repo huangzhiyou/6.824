@@ -1,0 +1,187 @@
+disconnect(0)
+disconnect(1)
+disconnect(2)
+connect(0)
+connect(1)
+connect(2)
+Test (2B): RPC counts aren't too high ...
+2020/09/07 01:31:06 0 start election,term:1
+2020/09/07 01:31:06 0 send request vote to 1,term:1
+2020/09/07 01:31:06 0 send request vote to 2,term:1
+2020/09/07 01:31:06 1 received requested vote from 0,args.term:1,my term 0
+2020/09/07 01:31:06 server:1 state change from 2 to 2
+2020/09/07 01:31:06 2 received requested vote from 0,args.term:1,my term 0
+2020/09/07 01:31:06 server:2 state change from 2 to 2
+2020/09/07 01:31:06 0 receive vote from 1
+2020/09/07 01:31:06 0 receive vote from 2
+2020/09/07 01:31:06 [0] become leader in term 1
+2020/09/07 01:31:06 0,my rf state 0
+2020/09/07 01:31:06 leader:0 start append entries,term:1
+2020/09/07 01:31:06 0 send appendEntries to 2,term:1
+2020/09/07 01:31:06 0 send appendEntries to 1,term:1
+2020/09/07 01:31:06 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:06 server:2,state change from 2 to 2
+2020/09/07 01:31:06 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:06 server:1,state change from 2 to 2
+2020/09/07 01:31:06 0,my rf state 0
+2020/09/07 01:31:06 leader:0 start append entries,term:1
+2020/09/07 01:31:06 0 send appendEntries to 1,term:1
+2020/09/07 01:31:06 0 send appendEntries to 2,term:1
+2020/09/07 01:31:06 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:06 server:1,state change from 2 to 2
+2020/09/07 01:31:06 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:06 server:2,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 client append log:1
+2020/09/07 01:31:07 client append log:240546239
+2020/09/07 01:31:07 client append log:882336464
+2020/09/07 01:31:07 client append log:2001578789
+2020/09/07 01:31:07 client append log:10761428
+2020/09/07 01:31:07 client append log:345362270
+2020/09/07 01:31:07 client append log:637610524
+2020/09/07 01:31:07 client append log:534201726
+2020/09/07 01:31:07 client append log:750634431
+2020/09/07 01:31:07 client append log:153532545
+2020/09/07 01:31:07 client append log:2006292209
+2020/09/07 01:31:07 client append log:2070671347
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 server 0 succeed to send appendEntry to 2 from index 1 to index 13
+2020/09/07 01:31:07 server 0 succeed to send appendEntry to 1 from index 1 to index 13
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader commit index from 0 to 12
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 0,my rf state 0
+2020/09/07 01:31:07 leader:0 start append entries,term:1
+2020/09/07 01:31:07 0 send appendEntries to 2,term:1
+2020/09/07 01:31:07 0 send appendEntries to 1,term:1
+2020/09/07 01:31:07 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:07 server:1,state change from 2 to 2
+2020/09/07 01:31:07 server:2,state change from 2 to 2
+2020/09/07 01:31:08 0,my rf state 0
+2020/09/07 01:31:08 leader:0 start append entries,term:1
+2020/09/07 01:31:08 0 send appendEntries to 1,term:1
+2020/09/07 01:31:08 0 send appendEntries to 2,term:1
+2020/09/07 01:31:08 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:1,state change from 2 to 2
+2020/09/07 01:31:08 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:2,state change from 2 to 2
+2020/09/07 01:31:08 0,my rf state 0
+2020/09/07 01:31:08 leader:0 start append entries,term:1
+2020/09/07 01:31:08 0 send appendEntries to 1,term:1
+2020/09/07 01:31:08 0 send appendEntries to 2,term:1
+2020/09/07 01:31:08 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:1,state change from 2 to 2
+2020/09/07 01:31:08 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:2,state change from 2 to 2
+2020/09/07 01:31:08 0,my rf state 0
+2020/09/07 01:31:08 leader:0 start append entries,term:1
+2020/09/07 01:31:08 0 send appendEntries to 1,term:1
+2020/09/07 01:31:08 0 send appendEntries to 2,term:1
+2020/09/07 01:31:08 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:2,state change from 2 to 2
+2020/09/07 01:31:08 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:1,state change from 2 to 2
+2020/09/07 01:31:08 0,my rf state 0
+2020/09/07 01:31:08 leader:0 start append entries,term:1
+2020/09/07 01:31:08 0 send appendEntries to 1,term:1
+2020/09/07 01:31:08 0 send appendEntries to 2,term:1
+2020/09/07 01:31:08 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:1,state change from 2 to 2
+2020/09/07 01:31:08 server:2,state change from 2 to 2
+2020/09/07 01:31:08 0,my rf state 0
+2020/09/07 01:31:08 leader:0 start append entries,term:1
+2020/09/07 01:31:08 0 send appendEntries to 1,term:1
+2020/09/07 01:31:08 0 send appendEntries to 2,term:1
+2020/09/07 01:31:08 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:2,state change from 2 to 2
+2020/09/07 01:31:08 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:1,state change from 2 to 2
+2020/09/07 01:31:08 0,my rf state 0
+2020/09/07 01:31:08 leader:0 start append entries,term:1
+2020/09/07 01:31:08 0 send appendEntries to 1,term:1
+2020/09/07 01:31:08 0 send appendEntries to 2,term:1
+2020/09/07 01:31:08 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:1,state change from 2 to 2
+2020/09/07 01:31:08 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:2,state change from 2 to 2
+2020/09/07 01:31:08 0,my rf state 0
+2020/09/07 01:31:08 leader:0 start append entries,term:1
+2020/09/07 01:31:08 0 send appendEntries to 1,term:1
+2020/09/07 01:31:08 0 send appendEntries to 2,term:1
+2020/09/07 01:31:08 1 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:1,state change from 2 to 2
+2020/09/07 01:31:08 2 received from 0 appendEntries ,term:1
+2020/09/07 01:31:08 server:2,state change from 2 to 2
+  ... Passed --   2.2  3   40   11994   12
+PASS
+ok  	_/Users/huangzhiyou/code/6.824/src/raft	2.832s

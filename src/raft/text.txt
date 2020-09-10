@@ -1,0 +1,715 @@
+Test (2A): initial election ...
+2020/09/04 15:07:10 2 start election,term:1
+2020/09/04 15:07:10 2 send request vote to 1,term:1
+2020/09/04 15:07:10 2 send request vote to 0,term:1
+2020/09/04 15:07:10 1 received requested vote from 2,args.term:1,my term 0
+2020/09/04 15:07:10 0 received requested vote from 2,args.term:1,my term 0
+2020/09/04 15:07:10 2 receive vote from 1
+2020/09/04 15:07:10 [2] become leader in term 1
+2020/09/04 15:07:10 rf state 0
+2020/09/04 15:07:10 leader:2 start append entries
+2020/09/04 15:07:10 2 receive vote from 0
+2020/09/04 15:07:10 2 send appendEntries to 1,term:1
+2020/09/04 15:07:10 2 send appendEntries to 0,term:1
+2020/09/04 15:07:10 2 successed to send logs to 1 
+2020/09/04 15:07:10 2 successed to send logs to 0 
+2020/09/04 15:07:10 rf state 0
+2020/09/04 15:07:10 leader:2 start append entries
+2020/09/04 15:07:10 2 send appendEntries to 1,term:1
+2020/09/04 15:07:10 2 send appendEntries to 0,term:1
+2020/09/04 15:07:10 2 successed to send logs to 0 
+2020/09/04 15:07:10 2 successed to send logs to 1 
+2020/09/04 15:07:10 rf state 0
+2020/09/04 15:07:10 leader:2 start append entries
+2020/09/04 15:07:10 2 send appendEntries to 1,term:1
+2020/09/04 15:07:10 2 send appendEntries to 0,term:1
+2020/09/04 15:07:10 2 successed to send logs to 0 
+2020/09/04 15:07:10 2 successed to send logs to 1 
+2020/09/04 15:07:10 rf state 0
+2020/09/04 15:07:10 leader:2 start append entries
+2020/09/04 15:07:10 2 send appendEntries to 1,term:1
+2020/09/04 15:07:10 2 send appendEntries to 0,term:1
+2020/09/04 15:07:10 2 successed to send logs to 1 
+2020/09/04 15:07:10 2 successed to send logs to 0 
+2020/09/04 15:07:10 rf state 0
+2020/09/04 15:07:10 leader:2 start append entries
+2020/09/04 15:07:10 2 send appendEntries to 1,term:1
+2020/09/04 15:07:10 2 send appendEntries to 0,term:1
+2020/09/04 15:07:10 2 successed to send logs to 1 
+2020/09/04 15:07:10 2 successed to send logs to 0 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 rf state 0
+2020/09/04 15:07:11 leader:2 start append entries
+2020/09/04 15:07:11 2 send appendEntries to 1,term:1
+2020/09/04 15:07:11 2 send appendEntries to 0,term:1
+2020/09/04 15:07:11 2 successed to send logs to 1 
+2020/09/04 15:07:11 2 successed to send logs to 0 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:12 rf state 0
+2020/09/04 15:07:12 leader:2 start append entries
+2020/09/04 15:07:12 2 send appendEntries to 1,term:1
+2020/09/04 15:07:12 2 send appendEntries to 0,term:1
+2020/09/04 15:07:12 2 successed to send logs to 0 
+2020/09/04 15:07:12 2 successed to send logs to 1 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:2 start append entries
+2020/09/04 15:07:13 2 send appendEntries to 1,term:1
+2020/09/04 15:07:13 2 send appendEntries to 0,term:1
+2020/09/04 15:07:13 2 successed to send logs to 1 
+2020/09/04 15:07:13 2 successed to send logs to 0 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:2 start append entries
+2020/09/04 15:07:13 2 send appendEntries to 1,term:1
+2020/09/04 15:07:13 2 send appendEntries to 0,term:1
+2020/09/04 15:07:13 2 successed to send logs to 1 
+2020/09/04 15:07:13 2 successed to send logs to 0 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:2 start append entries
+2020/09/04 15:07:13 2 send appendEntries to 1,term:1
+2020/09/04 15:07:13 2 send appendEntries to 0,term:1
+2020/09/04 15:07:13 2 successed to send logs to 1 
+2020/09/04 15:07:13 2 successed to send logs to 0 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:2 start append entries
+2020/09/04 15:07:13 2 send appendEntries to 1,term:1
+2020/09/04 15:07:13 2 send appendEntries to 0,term:1
+2020/09/04 15:07:13 2 successed to send logs to 0 
+2020/09/04 15:07:13 2 successed to send logs to 1 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:2 start append entries
+2020/09/04 15:07:13 2 send appendEntries to 1,term:1
+2020/09/04 15:07:13 2 send appendEntries to 0,term:1
+2020/09/04 15:07:13 2 successed to send logs to 0 
+2020/09/04 15:07:13 2 successed to send logs to 1 
+  ... Passed --   3.1  3   60    7436    0
+Test (2A): election after network failure ...
+2020/09/04 15:07:13 1 start election,term:1
+2020/09/04 15:07:13 1 send request vote to 2,term:1
+2020/09/04 15:07:13 1 send request vote to 0,term:1
+2020/09/04 15:07:13 0 received requested vote from 1,args.term:1,my term 0
+2020/09/04 15:07:13 2 received requested vote from 1,args.term:1,my term 0
+2020/09/04 15:07:13 1 receive vote from 2
+2020/09/04 15:07:13 [1] become leader in term 1
+2020/09/04 15:07:13 1 receive vote from 0
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:1 start append entries
+2020/09/04 15:07:13 1 send appendEntries to 2,term:1
+2020/09/04 15:07:13 1 send appendEntries to 0,term:1
+2020/09/04 15:07:13 1 successed to send logs to 0 
+2020/09/04 15:07:13 1 successed to send logs to 2 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:1 start append entries
+2020/09/04 15:07:13 1 send appendEntries to 2,term:1
+2020/09/04 15:07:13 1 send appendEntries to 0,term:1
+2020/09/04 15:07:13 1 successed to send logs to 2 
+2020/09/04 15:07:13 1 successed to send logs to 0 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:1 start append entries
+2020/09/04 15:07:13 1 send appendEntries to 2,term:1
+2020/09/04 15:07:13 1 send appendEntries to 0,term:1
+2020/09/04 15:07:13 1 successed to send logs to 2 
+2020/09/04 15:07:13 1 successed to send logs to 0 
+2020/09/04 15:07:13 rf state 0
+2020/09/04 15:07:13 leader:1 start append entries
+2020/09/04 15:07:13 1 send appendEntries to 2,term:1
+2020/09/04 15:07:13 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 2 start election,term:2
+2020/09/04 15:07:14 2 send request vote to 1,term:2
+2020/09/04 15:07:14 2 send request vote to 0,term:2
+2020/09/04 15:07:14 0 received requested vote from 2,args.term:2,my term 1
+2020/09/04 15:07:14 2 receive refused vote from 0
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:14 1 successed to send logs to 2 
+2020/09/04 15:07:14 0 start election,term:2
+2020/09/04 15:07:14 0 send request vote to 2,term:2
+2020/09/04 15:07:14 0 send request vote to 1,term:2
+2020/09/04 15:07:14 2 received requested vote from 0,args.term:2,my term 2
+2020/09/04 15:07:14 0 receive refused vote from 2
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 2 start election,term:3
+2020/09/04 15:07:14 2 send request vote to 1,term:3
+2020/09/04 15:07:14 2 send request vote to 0,term:3
+2020/09/04 15:07:14 0 received requested vote from 2,args.term:3,my term 2
+2020/09/04 15:07:14 2 receive refused vote from 0
+2020/09/04 15:07:14 0 start election,term:3
+2020/09/04 15:07:14 0 send request vote to 2,term:3
+2020/09/04 15:07:14 0 send request vote to 1,term:3
+2020/09/04 15:07:14 2 received requested vote from 0,args.term:3,my term 3
+2020/09/04 15:07:14 0 receive refused vote from 2
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 2 start election,term:4
+2020/09/04 15:07:14 2 send request vote to 1,term:4
+2020/09/04 15:07:14 2 send request vote to 0,term:4
+2020/09/04 15:07:14 0 received requested vote from 2,args.term:4,my term 3
+2020/09/04 15:07:14 2 receive refused vote from 0
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 0 start election,term:4
+2020/09/04 15:07:14 0 send request vote to 2,term:4
+2020/09/04 15:07:14 0 send request vote to 1,term:4
+2020/09/04 15:07:14 2 received requested vote from 0,args.term:4,my term 4
+2020/09/04 15:07:14 0 receive refused vote from 2
+2020/09/04 15:07:14 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:14 1 successed to send logs to 2 
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:14 1 successed to send logs to 2 
+2020/09/04 15:07:14 2 start election,term:5
+2020/09/04 15:07:14 2 send request vote to 1,term:5
+2020/09/04 15:07:14 2 send request vote to 0,term:5
+2020/09/04 15:07:14 0 received requested vote from 2,args.term:5,my term 4
+2020/09/04 15:07:14 2 receive refused vote from 0
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:14 1 successed to send logs to 0 
+2020/09/04 15:07:14 0 start election,term:5
+2020/09/04 15:07:14 0 send request vote to 2,term:5
+2020/09/04 15:07:14 0 send request vote to 1,term:5
+2020/09/04 15:07:14 2 received requested vote from 0,args.term:5,my term 5
+2020/09/04 15:07:14 0 receive refused vote from 2
+2020/09/04 15:07:14 rf state 0
+2020/09/04 15:07:14 leader:1 start append entries
+2020/09/04 15:07:14 1 send appendEntries to 2,term:1
+2020/09/04 15:07:14 1 send appendEntries to 0,term:1
+2020/09/04 15:07:14 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:14 1 successed to send logs to 2 
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 2 start election,term:6
+2020/09/04 15:07:15 2 send request vote to 1,term:6
+2020/09/04 15:07:15 2 send request vote to 0,term:6
+2020/09/04 15:07:15 0 received requested vote from 2,args.term:6,my term 5
+2020/09/04 15:07:15 2 receive refused vote from 0
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 0 start election,term:6
+2020/09/04 15:07:15 0 send request vote to 2,term:6
+2020/09/04 15:07:15 0 send request vote to 1,term:6
+2020/09/04 15:07:15 2 received requested vote from 0,args.term:6,my term 6
+2020/09/04 15:07:15 0 receive refused vote from 2
+2020/09/04 15:07:15 2 start election,term:7
+2020/09/04 15:07:15 2 send request vote to 1,term:7
+2020/09/04 15:07:15 2 send request vote to 0,term:7
+2020/09/04 15:07:15 0 received requested vote from 2,args.term:7,my term 6
+2020/09/04 15:07:15 2 receive refused vote from 0
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 0 start election,term:7
+2020/09/04 15:07:15 0 send request vote to 2,term:7
+2020/09/04 15:07:15 0 send request vote to 1,term:7
+2020/09/04 15:07:15 2 received requested vote from 0,args.term:7,my term 7
+2020/09/04 15:07:15 0 receive refused vote from 2
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:15 1 successed to send logs to 2 
+2020/09/04 15:07:15 2 start election,term:8
+2020/09/04 15:07:15 2 send request vote to 1,term:8
+2020/09/04 15:07:15 2 send request vote to 0,term:8
+2020/09/04 15:07:15 0 received requested vote from 2,args.term:8,my term 7
+2020/09/04 15:07:15 2 receive refused vote from 0
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:15 1 successed to send logs to 0 
+2020/09/04 15:07:15 0 start election,term:8
+2020/09/04 15:07:15 0 send request vote to 2,term:8
+2020/09/04 15:07:15 0 send request vote to 1,term:8
+2020/09/04 15:07:15 2 received requested vote from 0,args.term:8,my term 8
+2020/09/04 15:07:15 0 receive refused vote from 2
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 2 start election,term:9
+2020/09/04 15:07:15 2 send request vote to 1,term:9
+2020/09/04 15:07:15 2 send request vote to 0,term:9
+2020/09/04 15:07:15 0 received requested vote from 2,args.term:9,my term 8
+2020/09/04 15:07:15 2 receive refused vote from 0
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:15 1 successed to send logs to 0 
+2020/09/04 15:07:15 2 to 1 requestVote RPC failed
+2020/09/04 15:07:15 0 start election,term:9
+2020/09/04 15:07:15 0 send request vote to 2,term:9
+2020/09/04 15:07:15 0 send request vote to 1,term:9
+2020/09/04 15:07:15 2 received requested vote from 0,args.term:9,my term 9
+2020/09/04 15:07:15 0 receive refused vote from 2
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 2 start election,term:10
+2020/09/04 15:07:15 2 send request vote to 1,term:10
+2020/09/04 15:07:15 2 send request vote to 0,term:10
+2020/09/04 15:07:15 0 received requested vote from 2,args.term:10,my term 9
+2020/09/04 15:07:15 2 receive refused vote from 0
+2020/09/04 15:07:15 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:15 1 successed to send logs to 0 
+2020/09/04 15:07:15 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:15 1 successed to send logs to 2 
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 0 start election,term:10
+2020/09/04 15:07:15 0 send request vote to 2,term:10
+2020/09/04 15:07:15 0 send request vote to 1,term:10
+2020/09/04 15:07:15 2 received requested vote from 0,args.term:10,my term 10
+2020/09/04 15:07:15 0 receive refused vote from 2
+2020/09/04 15:07:15 rf state 0
+2020/09/04 15:07:15 leader:1 start append entries
+2020/09/04 15:07:15 1 send appendEntries to 2,term:1
+2020/09/04 15:07:15 1 send appendEntries to 0,term:1
+2020/09/04 15:07:15 2 start election,term:11
+2020/09/04 15:07:15 2 send request vote to 1,term:11
+2020/09/04 15:07:15 2 send request vote to 0,term:11
+2020/09/04 15:07:15 0 received requested vote from 2,args.term:11,my term 10
+2020/09/04 15:07:15 2 receive refused vote from 0
+2020/09/04 15:07:15 0 to 1 requestVote RPC failed
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:16 1 successed to send logs to 0 
+2020/09/04 15:07:16 0 start election,term:11
+2020/09/04 15:07:16 0 send request vote to 2,term:11
+2020/09/04 15:07:16 0 send request vote to 1,term:11
+2020/09/04 15:07:16 2 received requested vote from 0,args.term:11,my term 11
+2020/09/04 15:07:16 0 receive refused vote from 2
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 0 to 1 requestVote RPC failed
+2020/09/04 15:07:16 2 start election,term:12
+2020/09/04 15:07:16 2 send request vote to 1,term:12
+2020/09/04 15:07:16 2 send request vote to 0,term:12
+2020/09/04 15:07:16 0 received requested vote from 2,args.term:12,my term 11
+2020/09/04 15:07:16 2 receive refused vote from 0
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 0 start election,term:12
+2020/09/04 15:07:16 0 send request vote to 2,term:12
+2020/09/04 15:07:16 0 send request vote to 1,term:12
+2020/09/04 15:07:16 2 received requested vote from 0,args.term:12,my term 12
+2020/09/04 15:07:16 0 receive refused vote from 2
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 2 to 1 requestVote RPC failed
+2020/09/04 15:07:16 2 to 1 requestVote RPC failed
+2020/09/04 15:07:16 2 start election,term:13
+2020/09/04 15:07:16 2 send request vote to 1,term:13
+2020/09/04 15:07:16 2 send request vote to 0,term:13
+2020/09/04 15:07:16 0 received requested vote from 2,args.term:13,my term 12
+2020/09/04 15:07:16 2 receive refused vote from 0
+2020/09/04 15:07:16 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:16 1 successed to send logs to 2 
+2020/09/04 15:07:16 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:16 1 successed to send logs to 2 
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 0 start election,term:13
+2020/09/04 15:07:16 0 send request vote to 2,term:13
+2020/09/04 15:07:16 0 send request vote to 1,term:13
+2020/09/04 15:07:16 2 received requested vote from 0,args.term:13,my term 13
+2020/09/04 15:07:16 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:16 1 successed to send logs to 2 
+2020/09/04 15:07:16 0 receive refused vote from 2
+2020/09/04 15:07:16 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:16 1 successed to send logs to 0 
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 2 start election,term:14
+2020/09/04 15:07:16 2 send request vote to 1,term:14
+2020/09/04 15:07:16 2 send request vote to 0,term:14
+2020/09/04 15:07:16 0 received requested vote from 2,args.term:14,my term 13
+2020/09/04 15:07:16 2 receive refused vote from 0
+2020/09/04 15:07:16 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:16 1 successed to send logs to 0 
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 0 start election,term:14
+2020/09/04 15:07:16 0 send request vote to 1,term:14
+2020/09/04 15:07:16 0 send request vote to 2,term:14
+2020/09/04 15:07:16 2 received requested vote from 0,args.term:14,my term 14
+2020/09/04 15:07:16 0 receive refused vote from 2
+2020/09/04 15:07:16 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:16 1 successed to send logs to 0 
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:16 2 start election,term:15
+2020/09/04 15:07:16 2 send request vote to 1,term:15
+2020/09/04 15:07:16 2 send request vote to 0,term:15
+2020/09/04 15:07:16 0 received requested vote from 2,args.term:15,my term 14
+2020/09/04 15:07:16 2 receive refused vote from 0
+2020/09/04 15:07:16 0 start election,term:15
+2020/09/04 15:07:16 0 send request vote to 2,term:15
+2020/09/04 15:07:16 0 send request vote to 1,term:15
+2020/09/04 15:07:16 2 received requested vote from 0,args.term:15,my term 15
+2020/09/04 15:07:16 0 receive refused vote from 2
+2020/09/04 15:07:16 rf state 0
+2020/09/04 15:07:16 leader:1 start append entries
+2020/09/04 15:07:16 1 send appendEntries to 2,term:1
+2020/09/04 15:07:16 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 2 
+2020/09/04 15:07:17 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 0 
+2020/09/04 15:07:17 2 start election,term:16
+2020/09/04 15:07:17 2 send request vote to 1,term:16
+2020/09/04 15:07:17 2 send request vote to 0,term:16
+2020/09/04 15:07:17 0 received requested vote from 2,args.term:16,my term 15
+2020/09/04 15:07:17 2 receive refused vote from 0
+2020/09/04 15:07:17 0 start election,term:16
+2020/09/04 15:07:17 0 send request vote to 2,term:16
+2020/09/04 15:07:17 0 send request vote to 1,term:16
+2020/09/04 15:07:17 2 received requested vote from 0,args.term:16,my term 16
+2020/09/04 15:07:17 0 receive refused vote from 2
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 0 
+2020/09/04 15:07:17 0 to 1 requestVote RPC failed
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 0 start election,term:17
+2020/09/04 15:07:17 0 send request vote to 2,term:17
+2020/09/04 15:07:17 0 send request vote to 1,term:17
+2020/09/04 15:07:17 2 received requested vote from 0,args.term:17,my term 16
+2020/09/04 15:07:17 0 receive refused vote from 2
+2020/09/04 15:07:17 2 start election,term:17
+2020/09/04 15:07:17 2 send request vote to 1,term:17
+2020/09/04 15:07:17 2 send request vote to 0,term:17
+2020/09/04 15:07:17 0 received requested vote from 2,args.term:17,my term 17
+2020/09/04 15:07:17 2 receive refused vote from 0
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 2 
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 0 to 1 requestVote RPC failed
+2020/09/04 15:07:17 0 start election,term:18
+2020/09/04 15:07:17 0 send request vote to 1,term:18
+2020/09/04 15:07:17 0 send request vote to 2,term:18
+2020/09/04 15:07:17 2 received requested vote from 0,args.term:18,my term 17
+2020/09/04 15:07:17 0 receive refused vote from 2
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 2 
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 2 start election,term:18
+2020/09/04 15:07:17 2 send request vote to 0,term:18
+2020/09/04 15:07:17 2 send request vote to 1,term:18
+2020/09/04 15:07:17 0 received requested vote from 2,args.term:18,my term 18
+2020/09/04 15:07:17 2 receive refused vote from 0
+2020/09/04 15:07:17 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 2 
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 0 start election,term:19
+2020/09/04 15:07:17 0 send request vote to 2,term:19
+2020/09/04 15:07:17 0 send request vote to 1,term:19
+2020/09/04 15:07:17 2 received requested vote from 0,args.term:19,my term 18
+2020/09/04 15:07:17 0 receive refused vote from 2
+2020/09/04 15:07:17 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 0 
+2020/09/04 15:07:17 2 start election,term:19
+2020/09/04 15:07:17 2 send request vote to 1,term:19
+2020/09/04 15:07:17 2 send request vote to 0,term:19
+2020/09/04 15:07:17 0 received requested vote from 2,args.term:19,my term 19
+2020/09/04 15:07:17 2 receive refused vote from 0
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 0 
+2020/09/04 15:07:17 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:17 1 successed to send logs to 0 
+2020/09/04 15:07:17 rf state 0
+2020/09/04 15:07:17 leader:1 start append entries
+2020/09/04 15:07:17 1 send appendEntries to 2,term:1
+2020/09/04 15:07:17 1 send appendEntries to 0,term:1
+2020/09/04 15:07:17 0 start election,term:20
+2020/09/04 15:07:17 0 send request vote to 2,term:20
+2020/09/04 15:07:17 0 send request vote to 1,term:20
+2020/09/04 15:07:17 2 received requested vote from 0,args.term:20,my term 19
+2020/09/04 15:07:17 0 receive refused vote from 2
+2020/09/04 15:07:17 0 to 1 requestVote RPC failed
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 2 to 1 requestVote RPC failed
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 2 start election,term:20
+2020/09/04 15:07:18 2 send request vote to 1,term:20
+2020/09/04 15:07:18 2 send request vote to 0,term:20
+2020/09/04 15:07:18 0 received requested vote from 2,args.term:20,my term 20
+2020/09/04 15:07:18 2 receive refused vote from 0
+2020/09/04 15:07:18 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 0 
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 0 start election,term:21
+2020/09/04 15:07:18 0 send request vote to 2,term:21
+2020/09/04 15:07:18 0 send request vote to 1,term:21
+2020/09/04 15:07:18 2 received requested vote from 0,args.term:21,my term 20
+2020/09/04 15:07:18 0 receive refused vote from 2
+2020/09/04 15:07:18 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 2 
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 2 start election,term:21
+2020/09/04 15:07:18 2 send request vote to 1,term:21
+2020/09/04 15:07:18 2 send request vote to 0,term:21
+2020/09/04 15:07:18 0 received requested vote from 2,args.term:21,my term 21
+2020/09/04 15:07:18 2 receive refused vote from 0
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 0 start election,term:22
+2020/09/04 15:07:18 0 send request vote to 2,term:22
+2020/09/04 15:07:18 0 send request vote to 1,term:22
+2020/09/04 15:07:18 2 received requested vote from 0,args.term:22,my term 21
+2020/09/04 15:07:18 0 receive refused vote from 2
+2020/09/04 15:07:18 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 2 
+2020/09/04 15:07:18 0 to 1 requestVote RPC failed
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 2 start election,term:22
+2020/09/04 15:07:18 2 send request vote to 1,term:22
+2020/09/04 15:07:18 2 send request vote to 0,term:22
+2020/09/04 15:07:18 0 received requested vote from 2,args.term:22,my term 22
+2020/09/04 15:07:18 2 receive refused vote from 0
+2020/09/04 15:07:18 0 start election,term:23
+2020/09/04 15:07:18 0 send request vote to 2,term:23
+2020/09/04 15:07:18 0 send request vote to 1,term:23
+2020/09/04 15:07:18 2 received requested vote from 0,args.term:23,my term 22
+2020/09/04 15:07:18 0 receive refused vote from 2
+2020/09/04 15:07:18 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 2 
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 0 to 1 requestVote RPC failed
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 2 
+2020/09/04 15:07:18 2 start election,term:23
+2020/09/04 15:07:18 2 send request vote to 1,term:23
+2020/09/04 15:07:18 2 send request vote to 0,term:23
+2020/09/04 15:07:18 0 received requested vote from 2,args.term:23,my term 23
+2020/09/04 15:07:18 2 receive refused vote from 0
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 0 
+2020/09/04 15:07:18 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 0 
+2020/09/04 15:07:18 0 start election,term:24
+2020/09/04 15:07:18 0 send request vote to 1,term:24
+2020/09/04 15:07:18 0 send request vote to 2,term:24
+2020/09/04 15:07:18 2 received requested vote from 0,args.term:24,my term 23
+2020/09/04 15:07:18 0 receive refused vote from 2
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 to 0 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 0 
+2020/09/04 15:07:18 2 to 1 requestVote RPC failed
+2020/09/04 15:07:18 rf state 0
+2020/09/04 15:07:18 leader:1 start append entries
+2020/09/04 15:07:18 1 to 2 appendEntries RPC failed
+2020/09/04 15:07:18 1 successed to send logs to 2 
+2020/09/04 15:07:18 1 send appendEntries to 2,term:1
+2020/09/04 15:07:18 1 send appendEntries to 0,term:1
+--- FAIL: TestReElection2A (5.44s)
+    config.go:330: expected one leader, got none
+FAIL
+exit status 1
+FAIL	_/Users/huangzhiyou/code/6.824/src/raft	9.253s
